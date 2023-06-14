@@ -27,7 +27,7 @@ class SampleControllerTest {
     protected Integer port; //get running port
 
     @Autowired
-    protected TestRestTemplate restTemplate;
+    protected TestRestTemplate restTemplate; // http client
 
     @Test
     void addUserSuccess() {
