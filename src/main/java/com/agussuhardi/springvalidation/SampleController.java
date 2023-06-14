@@ -25,7 +25,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     @PostMapping
-    public ResponseEntity<?> login(@RequestBody @Valid UserVO vo) {
+    public ResponseEntity<?> addUser(@RequestBody @Valid UserVO vo) {
+//        logic register here
+//        ...
         return new ResponseEntity<>("Success", HttpStatus.OK);
     }
 
